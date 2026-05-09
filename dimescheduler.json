@@ -1,0 +1,15 @@
+{
+    "version": "0.3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://stdimescheduler.blob.core.windows.net/cli/v0.3.0/dimescheduler_0.3.0_windows_x86_64.zip",
+            "bin": [
+                "dimescheduler.exe"
+            ],
+            "hash": "e0f77506e474810ee4a02dcb1fc6a956eda9c31d43d2c7fc2dae9b70f5b4edba"
+        }
+    },
+    "homepage": "https://github.com/dime-scheduler/distro",
+    "license": "Proprietary",
+    "description": "Official Dime.Scheduler CLI"
+}
