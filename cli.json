@@ -1,12 +1,12 @@
 {
-    "version": "0.8.0",
+    "version": "0.9.0",
     "architecture": {
         "64bit": {
-            "url": "https://stdimescheduler.blob.core.windows.net/cli/v0.8.0/dimescheduler_0.8.0_windows_x86_64.zip",
+            "url": "https://stdimescheduler.blob.core.windows.net/cli/v0.9.0/dimescheduler_0.9.0_windows_x86_64.zip",
             "bin": [
                 "dimescheduler.exe"
             ],
-            "hash": "0a9a82616e020090cae11c77bc95b5a2160a972269d2529c28829f1739caabc3"
+            "hash": "e7d453e80a87deb109ba797b8f83e9bd6ff06d083b1ecbc4fa2fb772261fadb3"
         }
     },
     "homepage": "https://github.com/dime-scheduler/distro",
