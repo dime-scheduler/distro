@@ -5,21 +5,21 @@
 class Dimescheduler < Formula
   desc "Official Dime.Scheduler CLI"
   homepage "https://github.com/dime-scheduler/distro"
-  version "0.3.0"
+  version "0.4.0"
   license "Proprietary"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://stdimescheduler.blob.core.windows.net/cli/v0.3.0/dimescheduler_0.3.0_darwin_x86_64.tar.gz"
-      sha256 "a19e98377df45afaf30f20e4351c85f414b9a03987cc4703d6d27a334fd1f07e"
+      url "https://stdimescheduler.blob.core.windows.net/cli/v0.4.0/dimescheduler_0.4.0_darwin_x86_64.tar.gz"
+      sha256 "d72cd998bbc77723e2b76c440df0306fb311a2bb7c981a0d380027523af670e2"
 
       define_method(:install) do
         bin.install "dimescheduler"
       end
     end
     if Hardware::CPU.arm?
-      url "https://stdimescheduler.blob.core.windows.net/cli/v0.3.0/dimescheduler_0.3.0_darwin_arm64.tar.gz"
-      sha256 "fc801621e76ebdc8f07e8245babe446d91296ae5aec66f26a5e0ffa88c212e1e"
+      url "https://stdimescheduler.blob.core.windows.net/cli/v0.4.0/dimescheduler_0.4.0_darwin_arm64.tar.gz"
+      sha256 "bda460b25254121fa210c8bfef099f9406282d3dd27c5ddbd46eda7f29f517d0"
 
       define_method(:install) do
         bin.install "dimescheduler"
@@ -29,15 +29,15 @@ class Dimescheduler < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://stdimescheduler.blob.core.windows.net/cli/v0.3.0/dimescheduler_0.3.0_linux_x86_64.tar.gz"
-      sha256 "eb5fc7d16508a257dcd0d0f0d85dbca93fb6ead7d8811e6a93eac565d018e9c2"
+      url "https://stdimescheduler.blob.core.windows.net/cli/v0.4.0/dimescheduler_0.4.0_linux_x86_64.tar.gz"
+      sha256 "c6d338830e5650fc93182fcee41ae65d25dd8276d3714ba1f98eac35fe524b2f"
       define_method(:install) do
         bin.install "dimescheduler"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://stdimescheduler.blob.core.windows.net/cli/v0.3.0/dimescheduler_0.3.0_linux_arm64.tar.gz"
-      sha256 "19ff15e979424384a02683bb857eb94e2160067c95bad553873fd05107351a1a"
+      url "https://stdimescheduler.blob.core.windows.net/cli/v0.4.0/dimescheduler_0.4.0_linux_arm64.tar.gz"
+      sha256 "8b6001c356d40ddea3f580e026c1fc9ff12c51c4e37577ab9765f9a4d63b4b56"
       define_method(:install) do
         bin.install "dimescheduler"
       end
