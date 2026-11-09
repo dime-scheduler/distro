@@ -1,9 +1,9 @@
-# Dime.Scheduler v0.6.1
+# Dime.Scheduler v0.6.2
 
 | Asset | SHA256 |
 | --- | --- |
-| [dime-scheduler-desktop_0.6.1_x64-setup.exe](https://github.com/dime-scheduler/distro/releases/download/desktop-v0.6.1/dime-scheduler-desktop_0.6.1_x64-setup.exe) | `16bf6060103bd683665f73c761d1c12286a28b61d86295ffdf2c92933a595918` |
-| [dime-scheduler-desktop.exe](https://github.com/dime-scheduler/distro/releases/download/desktop-v0.6.1/dime-scheduler-desktop.exe) (portable) | `c19561774312f1696bd66385f9b741423ab0a79f67bbf812029eb7982e154bb9` |
-| [dime-scheduler-desktop_0.6.1_universal.dmg](https://github.com/dime-scheduler/distro/releases/download/desktop-v0.6.1/dime-scheduler-desktop_0.6.1_universal.dmg) (macOS) | `9c373211ac71a45be6ee51941770b1de5be53c70fb4acf4f6ceac36eedd15a0a` |
+| [dime-scheduler-desktop_0.6.2_x64-setup.exe](https://github.com/dime-scheduler/distro/releases/download/desktop-v0.6.2/dime-scheduler-desktop_0.6.2_x64-setup.exe) | `0383c5be6a7ca28607f5f8f8f970e2c936cf684abb7fe9890d1268b651a844f2` |
+| [dime-scheduler-desktop.exe](https://github.com/dime-scheduler/distro/releases/download/desktop-v0.6.2/dime-scheduler-desktop.exe) (portable) | `64d840111338fce1538dd1240892cc919c961434da7898207ddead4f9ad042c2` |
+| [dime-scheduler-desktop_0.6.2_universal.dmg](https://github.com/dime-scheduler/distro/releases/download/desktop-v0.6.2/dime-scheduler-desktop_0.6.2_universal.dmg) (macOS) | `e4a98ba708a444b001e50a196592e6c7330431fc5021bef2397f0c0a3b403717` |
 
 See the [Scoop manifest](../desktop.json) for install paths.

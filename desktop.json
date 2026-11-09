@@ -1,6 +1,6 @@
 {
     "$schema": "https://raw.githubusercontent.com/ScoopInstaller/Scoop/master/schema.json",
-    "version": "0.6.1",
+    "version": "0.6.2",
     "description": "Dime.Scheduler desktop time tracker",
     "homepage": "https://www.dimescheduler.com",
     "license": {
@@ -10,8 +10,8 @@
     "notes": "Requires the Microsoft Edge WebView2 runtime (included with Windows 10/11).",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/dime-scheduler/distro/releases/download/desktop-v0.6.1/dime-scheduler-desktop.exe",
-            "hash": "c19561774312f1696bd66385f9b741423ab0a79f67bbf812029eb7982e154bb9"
+            "url": "https://github.com/dime-scheduler/distro/releases/download/desktop-v0.6.2/dime-scheduler-desktop.exe",
+            "hash": "64d840111338fce1538dd1240892cc919c961434da7898207ddead4f9ad042c2"
         }
     },
     "bin": [["dime-scheduler-desktop.exe", "dimescheduler-desktop"]],
